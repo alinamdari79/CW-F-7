@@ -7,12 +7,15 @@
       height: 100%;
   }
   
-  
   body{
       background-color: #d9d9d5;
       margin: 0;
       padding: 0;
       height: 100px;
+  }
+  img {
+    margin-top: 100px;
+    margin-right: 100px;
   }
   
   .container{
@@ -34,7 +37,7 @@
       border-radius: 1rem;
       box-shadow: rgba(0, 0, 0, 0.3) 1px 1px 5px 1px;
   }
-  .darkform{
+  .dark .form{
       margin: auto;
       background-color: #272727;
       width: 50%;
@@ -57,7 +60,7 @@
       border: none;
       border-radius: 0.4rem;
   }
-  .darkheader{
+  .dark .header{
       color: white;
       font-size: 3rem;
       margin: 0;
@@ -72,7 +75,7 @@
       border: none;
       border-radius: 0.4rem;
   }
-  .darksubmit{
+  .dark .submit{
       background-color: var(--red);
       text-align: center;
       color: white;
@@ -81,18 +84,16 @@
       border-radius: 0.4rem;
   }
   
-  .darkform , lable{
+  .dark .form label{
       color: white;
   }
   
-  .backgrounddark{
+  .dark .backgroundwhite{
       height: 100%;
       width: 50%;
       background-color: #181818;
       padding: 8rem 4rem;
-  
-  
-  }
+}
   
   .backgroundwhite{
       height: 100%;
